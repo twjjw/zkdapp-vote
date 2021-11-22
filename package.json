@@ -1,0 +1,20 @@
+{
+  "name": "root",
+  "private": true,
+  "scripts": {
+    "build": "webpack",
+    "bootstrap": "lerna link --force-local && lerna bootstrap",
+    "deploy": "lerna run deploy",
+    "verify": "lerna run verify",
+    "ganache": "ganache-cli -m helloworld",
+    "start": "npm run ganache > /dev/null & GANACHE_PID=$! && lerna exec -- npm install && npm run bootstrap && npm run build && npm run deploy && npm run verify && kill $GANACHE_PID"
+  },
+  "dependencies": {
+    "express":"^4.16.4",
+    "circom": "^0.0.35",
+    "ethers": "^5.4.7",
+    "ganache-cli": "^6.9.0",
+    "lerna": "^3.20.2",
+    "snarkjs": "^0.1.20"
+  }
+}

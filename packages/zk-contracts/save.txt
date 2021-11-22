@@ -1,0 +1,18 @@
+2_deploy_contracts.js
+=====================
+
+   Deploying 'ZkIdentity'
+   ----------------------
+   > transaction hash:    0x4f2bed9d2337bd1d7be8254a601d88694ce8a21cda36ccc54d30c9c11f194476
+   > Blocks: 0            Seconds: 0
+   > contract address:    0x1989E393028E226724752581833B12E63cbd25Ae
+   > block number:        3
+   > block timestamp:     1633770093
+   > account:             0x48AE0071681F1e4C12C4bfffB68cE9d9cD9D0f99
+   > balance:             99.96609952
+   > gas used:            1482569 (0x169f49)
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.02965138 ETH
+
+
